@@ -1,0 +1,146 @@
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    gap: -30px;
+    margin-left: 40px;
+    border: 1px solid red; 
+    padding: 10px; 
+    background-color: red; 
+    color: white;
+  }
+  .Link2{
+  color: white;
+  text-decoration: none;
+
+
+  }
+  
+  .contenedor2 {
+    text-align: left; 
+    margin-left: 250px; 
+    display: inline-block;
+    
+  }
+  
+  .imagen {
+    margin-right: 350px; 
+  }
+
+  .boton-imagen {
+    margin-left: -20px;
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+  }
+  
+.imagen2 {
+  width: 70px;
+}
+
+.contenedor3{
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin-left: -150px; 
+}
+
+.menu-vertical li:hover a {
+  color: red;
+}
+
+nav {
+  max-width: 2350px;
+  margin: auto;
+  background-color: #F1C40F; 
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.menu-horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+  background-color: aliceblue;
+}
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgb(252, 250, 250);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical li:hover {
+  color: red; 
+}
+
+.menu-vertical li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 15px 15px 20px;
+}
+
+
+.nav1 {
+  max-width: 2350px;
+  margin: auto; 
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+
+.contenedor4 button img {
+  margin-left: -15px;
+  width: 60px; 
+  height: auto; 
+}
+
+.contenedor4 button {
+  background: transparent; 
+  border: none; 
+  padding: 0; 
+}
+
+.contenedor6posicion{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.contenedor6{
+background-image: url(LogoPrincipal.png);
+background-size: cover;
+height: 50%;
+width: 50%;
+border-radius: 10px;
+animation: animate 10s infinite;
+
+@keyframes  animate{
+20%{
+  background-image: url();
+
+}
+}
+}
